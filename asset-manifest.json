@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/food-hacks/static/css/main.617bcddf.chunk.css",
-    "main.js": "/food-hacks/static/js/main.5695a193.chunk.js",
-    "main.js.map": "/food-hacks/static/js/main.5695a193.chunk.js.map",
+    "main.css": "/food-hacks/static/css/main.c3337c83.chunk.css",
+    "main.js": "/food-hacks/static/js/main.d023f11f.chunk.js",
+    "main.js.map": "/food-hacks/static/js/main.d023f11f.chunk.js.map",
     "runtime-main.js": "/food-hacks/static/js/runtime-main.bf62318b.js",
     "runtime-main.js.map": "/food-hacks/static/js/runtime-main.bf62318b.js.map",
     "static/js/2.6228a41e.chunk.js": "/food-hacks/static/js/2.6228a41e.chunk.js",
     "static/js/2.6228a41e.chunk.js.map": "/food-hacks/static/js/2.6228a41e.chunk.js.map",
     "index.html": "/food-hacks/index.html",
-    "static/css/main.617bcddf.chunk.css.map": "/food-hacks/static/css/main.617bcddf.chunk.css.map",
+    "static/css/main.c3337c83.chunk.css.map": "/food-hacks/static/css/main.c3337c83.chunk.css.map",
     "static/js/2.6228a41e.chunk.js.LICENSE.txt": "/food-hacks/static/js/2.6228a41e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf62318b.js",
     "static/js/2.6228a41e.chunk.js",
-    "static/css/main.617bcddf.chunk.css",
-    "static/js/main.5695a193.chunk.js"
+    "static/css/main.c3337c83.chunk.css",
+    "static/js/main.d023f11f.chunk.js"
   ]
 }
