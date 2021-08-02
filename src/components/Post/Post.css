@@ -14,10 +14,10 @@ h4 {
   width: 450px;
   margin: 0px 0px 0px 15px;
   padding: 25px 5px 5px 5px;
-  background-color: #919191;
-  border: 1px solid #7e7c7c;
+  background-color: #949393;
+  border: 1px solid #2e2d2d;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgb(65, 64, 64);
+  box-shadow: 0px 0px 5px rgb(34, 33, 33);
   overflow-wrap: break-word;
   hyphens: manual;
 }

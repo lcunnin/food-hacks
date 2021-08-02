@@ -20,17 +20,7 @@ export default function App() {
         setIsError(error);
       });
     }
-  }, []);
-
- let listItems;
-  
-  if (foodPosts) {listItems = foodPosts.map((foodPost) => (
-    <div key={foodPost.id} className="post-body">
-      <h3>{foodPost.title}</h3>
-      <p>{foodPost.message}</p>
-    </div>
-  ));}
-
+  });
 
   if (isError) return "Opps...something went wrong!";
 
@@ -38,7 +28,15 @@ export default function App() {
     <div className="App">
       <Header />
       <div className="posts-container">
-        <div className="post-list">{listItems}</div>
+        <div className="post-list">{foodPosts &&
+            foodPosts.map((foodPost) => {
+              return (
+                <div key={foodPost.id} className="post-body">
+                  <h3>{foodPost.title}</h3>
+                  <p>{foodPost.message}</p>
+                </div>
+              );
+            })}</div>
         <Post className="submit-post-container"/>
       </div>
     </div>
