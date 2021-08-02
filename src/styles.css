@@ -55,10 +55,15 @@ body {
     order: 1;
   }
 
+  .new-entry-form,
+  form {
+    margin: 0px 0px 15px 0px;
+  }
+
   .post-list {
     order: 2;
     margin: 40px;
-    width: 80%;
+    width: 500px;
   }
 }
 

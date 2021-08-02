@@ -1,13 +1,8 @@
 h4 {
   margin-top: 5px;
+  padding-bottom: 10px;
   font-size: 28px;
-}
-
-hr {
-  width: 90%;
-  color: #fcca46;
-  margin-left: auto;
-  margin-right: auto;
+  border-bottom: 2px solid #fcca46;
 }
 
 .new-entry-form {

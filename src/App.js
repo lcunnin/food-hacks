@@ -5,40 +5,42 @@ import Post from "./components/Post/Post";
 import "./styles.css";
 
 export default function App() {
-  const [foodPosts, setFoodPosts] = useState([]);
+  const [foodPosts, setFoodPosts] = useState(null);
   const [isError, setIsError] = useState(false);
 
   useEffect(() => {
-    axios
+    if (foodPosts === null) {
+      axios
       .get("https://zn2o6.sse.codesandbox.io/api/posts", foodPosts)
       .then((response) => {
-        if (response.data !== null) {
-          setFoodPosts(response.data);
-        }
+        setFoodPosts(response.data);
       })
       .catch((error) => {
         console.error("Error fetching data: ", error);
         setIsError(error);
       });
-  }, [foodPosts]);
+    }
+  }, []);
 
-  if (isError) return "Opps...something went wrong!";
-
-  const listItems = foodPosts.map((foodPost) => (
+ let listItems;
+  
+  if (foodPosts) {listItems = foodPosts.map((foodPost) => (
     <div key={foodPost.id} className="post-body">
       <h3>{foodPost.title}</h3>
       <p>{foodPost.message}</p>
     </div>
-  ));
+  ));}
+
+
+  if (isError) return "Opps...something went wrong!";
 
   return (
     <div className="App">
       <Header />
       <div className="posts-container">
         <div className="post-list">{listItems}</div>
-        <Post className="submit-post-container" />
+        <Post className="submit-post-container"/>
       </div>
     </div>
   );
 }
-

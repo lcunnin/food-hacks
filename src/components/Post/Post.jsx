@@ -29,7 +29,6 @@ export default function Post() {
     <form className="new-entry-form" onSubmit={handleFormSubmit}>
       <header>
         <h4>Post a food tip or trick!</h4>
-        <hr></hr>
       </header>
       <div className="form-content">
         <div className="form-label">
@@ -42,7 +41,7 @@ export default function Post() {
             type="text"
             maxLength="100"
             placeholder="Enter Title"
-            value={newPost.title}
+            value={newPost.title || ""}
             onChange={handleChange}
             required
           />
@@ -59,7 +58,7 @@ export default function Post() {
             rows="30"
             maxLength="300"
             placeholder="Type Here"
-            value={newPost.message}
+            value={newPost.message || ""}
             onChange={handleChange}
             required
           />
