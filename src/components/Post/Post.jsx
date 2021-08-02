@@ -14,7 +14,7 @@ export default function Post() {
     e.preventDefault();
     setLoading(true);
     axios
-      .post("https://zn2o6.sse.codesandbox.io/api/posts/new", newPost)
+      .post("https://uves3.sse.codesandbox.io/api/posts/new", newPost)
       .then((response) => {
         setNewPost("");
         setLoading(false);

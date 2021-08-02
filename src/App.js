@@ -11,7 +11,7 @@ export default function App() {
   useEffect(() => {
     if (foodPosts === null) {
       axios
-      .get("https://zn2o6.sse.codesandbox.io/api/posts", foodPosts)
+      .get("https://uves3.sse.codesandbox.io/api/posts", foodPosts)
       .then((response) => {
         setFoodPosts(response.data);
       })

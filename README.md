@@ -2,9 +2,7 @@ Food Hacks App
 
 Deployment: https://lcunnin.github.io/food-hacks/
 
-Back-end New Post: https://uves3.sse.codesandbox.io/api/posts/new
-
-Back-end Post List: https://uves3.sse.codesandbox.io/api/posts
+Back-end: https://codesandbox.io/s/food-hacks-backend-uves3
 
 A web app for food hacks! A place to find tips and tricks that help make cooking easier, help keep food longer and any other food related advice you can think of. Post food hacks for all to see or review what other users recommend.
 
