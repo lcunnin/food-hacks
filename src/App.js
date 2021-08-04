@@ -36,7 +36,7 @@ export default function App() {
             foodPosts.map((foodPost) => {
               return (
                 <div key={foodPost.id} className="post-body">
-                  <h3>{foodPost.title}</h3>
+                  <h4>{foodPost.title}</h4>
                   <p>{foodPost.message}</p>
                 </div>
               );

@@ -15,30 +15,31 @@ h3 {
   width: 450px;
   margin: 0px 0px 0px 15px;
   padding: 25px 5px 5px 5px;
-  background-color: #d8d3c1;
+  background-color: #a5a4a1;
   border: 1px solid #100316;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgb(1, 9, 12);
 }
 
 .form-label {
-  font-size: 22px;
+  font-size: 25px;
+
   margin-top: 3px;
 }
 
 .form-text input {
   margin-top: -6px;
   width: 400px;
-  padding: 3px 3px;
-  color: #faf8f6;
+  padding: 5px auto;
+  color: #100316;
 }
 
 .form-textarea textarea {
   height: 200px;
   width: 400px;
-  padding: 3px 3px;
+  padding: 5px auto;
   resize: none;
-  color: #faf8f6;
+  color: #100316;
 }
 
 .submit-button {
