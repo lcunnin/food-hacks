@@ -43,7 +43,7 @@ export default function Post(props) {
             id="title"
             name="title"
             type="text"
-            maxLength="30"
+            maxLength="300"
             placeholder="Enter Title"
             value={newPost.title || ""}
             onChange={handleChange}
