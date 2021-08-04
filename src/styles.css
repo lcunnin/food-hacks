@@ -10,13 +10,13 @@ html {
 
 h2 {
   font-family: "Ruslan Display", cursive;
+  color: #100316;
   font-size: 2.5rem;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(10, 10, 10, 0.5)),
-    url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=860&q=80);
+  background: url(https://images.unsplash.com/photo-1452251889946-8ff5ea7b27ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1630&q=80);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -31,52 +31,54 @@ body {
 
 .post-list {
   width: 60%;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .post-body {
-  border: 1px solid rgb(170, 169, 169);
-  background-color: rgba(255, 255, 255, 1);
-  border: 1px solid #ccc;
+  border: 1px solid #100316;
+  background-color: #d8d3c1;
   border-radius: 4px;
-  margin: 0px 0px 7px 0px;
-  padding: 20px;
-  box-shadow: 0px 0px 5px rgb(34, 33, 33);
+  margin: 0px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px rgb(13, 7, 17);
+  overflow-wrap: break-word;
+  hyphens: manual;
 }
 
 .post-body p {
-  color: #212529;
-  margin-top: 5px;
+  color: #100316;
+  margin: 2px 2spx;
+  height: 100px;
+  overflow: auto;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1000px) {
+  .new-entry-form {
+    margin: 0px 0px 0px 0px;
+  }
+
   .posts-container {
     display: flex;
     flex-flow: column;
     align-items: center;
   }
+
   .submit-post-container {
     order: 1;
-  }
-
-  .new-entry-form,
-  form {
-    margin: 0px 0px px 0px;
   }
 
   .post-list {
     order: 2;
     margin: 40px;
-    width: 500px;
+    width: 80%;
   }
 }
 
-@media only screen and (min-width: 760px) and (max-width: 1199px) {
-  .posts-container {
-    width: 95%;
+@media only screen and (min-width: 1000px) and (max-width: 1281px) {
+  .post-container {
+    width: 70%;
   }
   .post-list {
-    width: 65%;
-    margin: 0px 30px 40px 40px;
+    width: 50%;
   }
 }

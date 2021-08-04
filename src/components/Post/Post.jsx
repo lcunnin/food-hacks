@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Post.css";
 
-export default function Post() {
+export default function Post(props) {
   const [newPost, setNewPost] = useState({ title: "", message: "" });
   const [loading, setLoading] = useState(false);
 
@@ -18,6 +18,10 @@ export default function Post() {
       .then((response) => {
         setNewPost("");
         setLoading(false);
+        if (response.data.length >= 0) {
+          props.setFoodPosts(response.data);
+        }
+        
       })
       .catch((error) => {
         console.error(error.response.data)
@@ -28,7 +32,7 @@ export default function Post() {
   return (
     <form className="new-entry-form" onSubmit={handleFormSubmit}>
       <header>
-        <h4>Post a food tip or trick!</h4>
+        <h3>POST A TIP OR TRICK</h3>
       </header>
       <div className="form-content">
         <div className="form-label">
@@ -39,7 +43,7 @@ export default function Post() {
             id="title"
             name="title"
             type="text"
-            maxLength="100"
+            maxLength="30"
             placeholder="Enter Title"
             value={newPost.title || ""}
             onChange={handleChange}
@@ -56,7 +60,6 @@ export default function Post() {
             type="text"
             cols="50"
             rows="30"
-            maxLength="300"
             placeholder="Type Here"
             value={newPost.message || ""}
             onChange={handleChange}

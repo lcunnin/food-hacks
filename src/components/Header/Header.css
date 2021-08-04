@@ -1,11 +1,10 @@
 .navbar {
-  background-color: #f02516;
-  background-image: linear-gradient(15deg, #f02516 0%, #fcca46 100%);
-  font-size: 30px;
+  background-color: #e9312d;
+  background-image: linear-gradient(15deg, #e9312d 0%, #eec366 100%);
   font-weight: bold;
-  height: 70px;
+  height: 95px;
   width: 100%;
-  box-shadow: 0px 0px 5px rgb(34, 33, 33);
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 2);
 }
 
 .toolbar {
@@ -15,5 +14,6 @@
 }
 
 .title {
-  margin: 15px 3px 3px 3px;
+  font-size: 65px;
+  margin: 10px 3px 3px 3px;
 }

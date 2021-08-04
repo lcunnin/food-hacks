@@ -1,38 +1,44 @@
-h4 {
-  margin-top: 5px;
+h3 {
+  font-family: "Ruslan Display", cursive;
+  color: #100316;
+  margin: 5px 15px 10px 15px;
   padding-bottom: 10px;
-  font-size: 28px;
-  border-bottom: 2px solid #fcca46;
+  font-size: 35px;
+  border-bottom: 2px solid #100316;
 }
 
 .new-entry-form {
   display: flex;
   flex-flow: column;
   text-align: center;
-  font-size: 22px;
   height: 510px;
   width: 450px;
   margin: 0px 0px 0px 15px;
   padding: 25px 5px 5px 5px;
-  background-color: #949393;
-  border: 1px solid #2e2d2d;
+  background-color: #d8d3c1;
+  border: 1px solid #100316;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgb(34, 33, 33);
-  overflow-wrap: break-word;
-  hyphens: manual;
+  box-shadow: 0px 0px 5px rgb(1, 9, 12);
+}
+
+.form-label {
+  font-size: 22px;
+  margin-top: 3px;
 }
 
 .form-text input {
+  margin-top: -6px;
   width: 400px;
-  margin-bottom: 5px;
-  padding: 0px 3px;
+  padding: 3px 3px;
+  color: #faf8f6;
 }
 
 .form-textarea textarea {
   height: 200px;
   width: 400px;
-  padding: 0px 5px;
+  padding: 3px 3px;
   resize: none;
+  color: #faf8f6;
 }
 
 .submit-button {
@@ -43,13 +49,13 @@ h4 {
   background-size: 200% auto;
   background-image: linear-gradient(
     to right,
-    #fcca46 0%,
-    #f06916 51%,
-    #fcca46 100%
+    #eec366 0%,
+    #e9312d 51%,
+    #eec366 100%
   );
   border-radius: 10px;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(58, 56, 56, 0.12), 0 1px 2px rgba(66, 64, 64, 0.24);
+  box-shadow: 0 1px 3px rgb(48, 41, 21 0.12), 0 1px 2px rgba(66, 64, 64, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
   display: inline-block;
