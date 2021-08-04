@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/food-hacks/static/css/main.ff1b823e.chunk.css",
+    "main.css": "/food-hacks/static/css/main.dbd6aee2.chunk.css",
     "main.js": "/food-hacks/static/js/main.45dda518.chunk.js",
     "main.js.map": "/food-hacks/static/js/main.45dda518.chunk.js.map",
     "runtime-main.js": "/food-hacks/static/js/runtime-main.bf62318b.js",
@@ -8,13 +8,13 @@
     "static/js/2.6228a41e.chunk.js": "/food-hacks/static/js/2.6228a41e.chunk.js",
     "static/js/2.6228a41e.chunk.js.map": "/food-hacks/static/js/2.6228a41e.chunk.js.map",
     "index.html": "/food-hacks/index.html",
-    "static/css/main.ff1b823e.chunk.css.map": "/food-hacks/static/css/main.ff1b823e.chunk.css.map",
+    "static/css/main.dbd6aee2.chunk.css.map": "/food-hacks/static/css/main.dbd6aee2.chunk.css.map",
     "static/js/2.6228a41e.chunk.js.LICENSE.txt": "/food-hacks/static/js/2.6228a41e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bf62318b.js",
     "static/js/2.6228a41e.chunk.js",
-    "static/css/main.ff1b823e.chunk.css",
+    "static/css/main.dbd6aee2.chunk.css",
     "static/js/main.45dda518.chunk.js"
   ]
 }
