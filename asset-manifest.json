@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/food-hacks/static/css/main.dbd6aee2.chunk.css",
-    "main.js": "/food-hacks/static/js/main.45dda518.chunk.js",
-    "main.js.map": "/food-hacks/static/js/main.45dda518.chunk.js.map",
+    "main.js": "/food-hacks/static/js/main.cd0052e2.chunk.js",
+    "main.js.map": "/food-hacks/static/js/main.cd0052e2.chunk.js.map",
     "runtime-main.js": "/food-hacks/static/js/runtime-main.bf62318b.js",
     "runtime-main.js.map": "/food-hacks/static/js/runtime-main.bf62318b.js.map",
     "static/js/2.6228a41e.chunk.js": "/food-hacks/static/js/2.6228a41e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.bf62318b.js",
     "static/js/2.6228a41e.chunk.js",
     "static/css/main.dbd6aee2.chunk.css",
-    "static/js/main.45dda518.chunk.js"
+    "static/js/main.cd0052e2.chunk.js"
   ]
 }
